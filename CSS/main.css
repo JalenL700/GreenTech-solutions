@@ -5,7 +5,12 @@
     width: 55%; 
 }
 
-
+#phone{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%; 
+}
 
 #spray {
     display: block;
@@ -60,4 +65,8 @@ body{
 table {
   margin-left: auto;
   margin-right: auto;
+}
+
+#timeline {
+    color: rgb(250, 31, 2);
 }
