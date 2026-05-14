@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <meta charset="UTF-8">
+     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/main.css">
     <title>Final website contact page</title>
 
@@ -35,6 +35,47 @@
             <td>1441 Ingram Road, Greensboro, NC, 27403</td>
         </tr>
         </table>
+
+        <p></p>
+        <p>Sign up for weekly email updates here!</p>
+        <p></p>
+
+        <form id="signUp" method="post">
+            <p>
+                <label for="formName">Name:</label>
+                <input type="text" id="name" name="user_name"/>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="mail" name="user_email"/>
+            </p>
+
+            <button id="button" type="submit">Submit!</button>
+        </form>
+
+        <div id="greeting-container" class="hidden">
+            <p id="greetingMessage"></p>
+        </div>
+
+        <script>
+            document.getElementById("signUp").addEventListener("submit", function (validateForm) {
+                event.preventDefault();
+                const name2 = document.getElementById("name").value;
+                const email = document.getElementById("mail").value;
+
+                const greetingContainer = document.getElementById("greeting-container");
+                const greetingMessage = document.getElementById("greetingMessage");
+
+                greetingMessage.textContent = "Thank you for signing up " +name2+"!" 
+            });
+    
+            
+        </script>
+
+
+
+
+
 
 
         <p>Be sure to look at everything else we offer!</p>
