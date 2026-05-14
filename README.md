@@ -14,4 +14,9 @@ The about us page contains information about the company and team, origins and c
 
 The products page contains all the products the company has made
 
-The contacts page contains a table with information to contact the company as well as a form to sign uo for weekly newsletters from the company
+The contacts page contains a table with information to contact the company as well as a form to sign uo for weekly newsletters from the 
+
+
+To set up and run the project, all you need is access to the link, it will take you to an index where you can click the link which will take you to the home page of the website
+
+Technologies used for this project are VsCode, Github and w3schools for reference.
