@@ -91,3 +91,10 @@ table {
     width: 55%; 
 
 }
+
+#plow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%; 
+}
