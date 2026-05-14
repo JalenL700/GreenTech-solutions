@@ -56,6 +56,7 @@ ol {
     width: fit-content; 
     background-color: #5D4037;
     margin: 20px auto; 
+    color: #F1F1EF;
 }
 
 body{
@@ -93,6 +94,13 @@ table {
 }
 
 #plow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%; 
+}
+
+#blog{
     display: block;
     margin-left: auto;
     margin-right: auto;
