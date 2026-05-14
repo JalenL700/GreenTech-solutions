@@ -1,3 +1,12 @@
+#about {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%; 
+}
+
+
+
 #spray {
     display: block;
     margin-left: auto;
@@ -18,11 +27,13 @@ h1{
 h2{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ac4728;
 }
 
 h3{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #d20909;
 }
 
 p {
@@ -44,4 +55,9 @@ ol {
 
 body{
     background-color: #FFE770;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
 }
